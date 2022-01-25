@@ -4,26 +4,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(145, 132, 132);
+    background-color: rgb(109, 100, 196);
 }
 
 body
 {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .container
 {
-
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-   
+  align-items: center;   
 
 }
 .calculator 
@@ -55,11 +52,12 @@ button
  
   height: 49px;
   width: 48px;
-  background-color: #0004;
+  background-color: rgba(231, 231, 231, 0.267);
+  border-radius: 10px;
   box-shadow: 5px 5px 12px #0004,
                 5px 5px 12px #0004;
   border: none;
-  border-radius: 50%;
+  
   margin: 8px;
   font-size: 18px;
 }
@@ -71,7 +69,6 @@ button
   box-shadow: 5px 5px 12px #0004,
                 5px 5px 12px #0004;
 }
-
 
 
 
